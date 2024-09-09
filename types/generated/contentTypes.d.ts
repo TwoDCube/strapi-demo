@@ -463,6 +463,7 @@ export interface ApiPostPost extends Schema.CollectionType {
           preset: 'rich';
         }
       >;
+    index_image: Attribute.Media<'images'> & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

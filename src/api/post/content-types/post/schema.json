@@ -35,6 +35,14 @@
       },
       "required": true,
       "customField": "plugin::ckeditor.CKEditor"
+    },
+    "index_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
