@@ -470,6 +470,7 @@ export interface ApiPostPost extends Schema.CollectionType {
       'api::author.author'
     >;
     images: Attribute.Media<'images', true>;
+    date: Attribute.Date & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

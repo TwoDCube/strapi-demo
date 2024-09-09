@@ -50,11 +50,16 @@
       "target": "api::author.author"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "date": {
+      "type": "date",
+      "required": true
     }
   }
 }
