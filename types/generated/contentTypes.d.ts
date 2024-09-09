@@ -471,6 +471,11 @@ export interface ApiPostPost extends Schema.CollectionType {
     >;
     images: Attribute.Media<'images', true>;
     date: Attribute.Date & Attribute.Required;
+    labels: Attribute.Relation<
+      'api::post.post',
+      'oneToMany',
+      'api::label.label'
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
