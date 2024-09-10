@@ -476,6 +476,7 @@ export interface ApiPostPost extends Schema.CollectionType {
       'oneToMany',
       'api::label.label'
     >;
+    featured: Attribute.Boolean;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

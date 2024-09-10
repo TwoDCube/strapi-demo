@@ -65,6 +65,9 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::label.label"
+    },
+    "featured": {
+      "type": "boolean"
     }
   }
 }
