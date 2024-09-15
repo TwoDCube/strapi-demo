@@ -445,14 +445,14 @@ export interface ApiPostPost extends Schema.CollectionType {
     title: Attribute.String &
       Attribute.Required &
       Attribute.SetMinMaxLength<{
-        maxLength: 80;
+        maxLength: 100;
       }>;
     color: Attribute.String &
       Attribute.Required &
       Attribute.CustomField<'plugin::color-picker.color'>;
     description: Attribute.Text &
       Attribute.SetMinMaxLength<{
-        maxLength: 320;
+        maxLength: 640;
       }>;
     content: Attribute.RichText &
       Attribute.Required &
