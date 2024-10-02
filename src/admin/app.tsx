@@ -1,9 +1,10 @@
 export default {
   config: {
     locales: [
-      'de',
+      // TODO: FIX LOCALES
+      // 'de',
       'en',
-      'hu'
+      // 'hu'
     ],
   },
   bootstrap(app) {
