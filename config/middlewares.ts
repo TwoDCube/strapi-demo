@@ -7,7 +7,8 @@ export default [
         contentSecurityPolicy: {
           useDefaults: true,
           directives: {
-            'script-src': ["'self'",'https://cdn.ckeditor.com']
+            'script-src': ["'self'",'https://cdn.ckeditor.com'],
+            'frame-src': ["'self'",'https://www.youtube.com']
           },
         },
       },
